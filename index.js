@@ -18,7 +18,7 @@ closenav.addEventListener("click",function(){
 
 var plants = document.getElementById("plants")
 var search = document.getElementById("search")
-var plantlist = plants.querySelectorAll("div")
+var plantlist = plants.querySelector(div)
 
 search.addEventListener("keyup",function(){
 
